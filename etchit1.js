@@ -21,7 +21,7 @@ function createGrid(num) {
     markup.style.display = "grid";
     // markup.style.alignItems = "center";
     // markup.style.display = "inline-grid";
-    markup.style.gridAutoRows = "minmax(10px, 10px";
+    // markup.style.gridAutoRows = "minmax(auto, auto)";
     markup.style.gridTemplateColumns = 'auto '.repeat(num);
     // markup.style.height = "80%";
     // markup.width = "150%";
